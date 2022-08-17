@@ -1,4 +1,4 @@
-import Content from "./content.mdx";
+import Content from "./content.mdx"
 
 export function ModernFeatures() {
   return (
@@ -9,7 +9,7 @@ export function ModernFeatures() {
         <Content />
       </div>
     </section>
-  );
+  )
 }
 
 function Title() {
@@ -38,7 +38,7 @@ function Title() {
         </p>
       </div>
     </div>
-  );
+  )
 }
 
 function Background() {
@@ -50,10 +50,10 @@ function Background() {
         style={{
           backgroundImage: "url(/0.png)",
           backgroundSize: "125.5rem 100%",
-          height: "28.8125rem",
+          height: "28.8125rem"
         }}
       />
       <div className="absolute inset-x-0 h-[37.5rem] bg-grid-slate-900/[0.04] bg-top [mask-image:linear-gradient(0deg,transparent,black)] bg-grid-slate-100/[0.03] bg-[center_top_-1px] border-t border-slate-100/5 top-0 " />
     </div>
-  );
+  )
 }
