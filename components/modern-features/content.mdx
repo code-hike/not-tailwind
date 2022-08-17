@@ -1,0 +1,97 @@
+import { Demo } from "./demo.js";
+import { GridButton, TransformsButton, FiltersButton } from "./buttons.js";
+
+<CH.Spotlight start={1}>
+
+{/* prettier-ignore */}
+```html hello.html
+<div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-8">
+  <div>
+    <img src="/mountains-1.jpg" alt="" loading="lazy">
+  </div>
+  <div class="col-start-3">
+    <img src="/mountains-2.jpg" alt="" loading="lazy">
+  </div>
+  <div>
+    <img src="/mountains-3.jpg" alt="" loading="lazy">
+  </div>
+  <div>
+    <img src="/mountains-4.jpg" alt="" loading="lazy">
+  </div>
+  <div class="row-start-1 col-start-2 col-span-2">
+    <img src="/mountains-5.jpg" alt="" loading="lazy">
+  </div>
+</div>
+```
+
+<CH.Preview frameless>
+  <Demo step={0} />
+</CH.Preview>
+
+---
+
+<GridButton />
+
+```html hello.html
+
+```
+
+---
+
+<TransformsButton />
+
+{/* prettier-ignore */}
+```html hello.html mark=2[15:43],5[27:82],8[15:48],11[15:38],14[50:87]
+<div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-8">
+  <div class="transform scale-110 -rotate-6">
+    <img src="/mountains-1.jpg" alt="" loading="lazy">
+  </div>
+  <div class="col-start-3 transform scale-75 rotate-6 translate-x-2 translate-y-15">
+    <img src="/mountains-2.jpg" alt="" loading="lazy">
+  </div>
+  <div class="transform scale-150 translate-y-11">
+    <img src="/mountains-3.jpg" alt="" loading="lazy">
+  </div>
+  <div class="transform translate-y-24">
+    <img src="/mountains-4.jpg" alt="" loading="lazy">
+  </div>
+  <div class="row-start-1 col-start-2 col-span-2 transform translate-x-20 translate-y-4">
+    <img src="/mountains-5.jpg" alt="" loading="lazy">
+  </div>
+</div>
+```
+
+<CH.Preview frameless>
+  <Demo step={1} />
+</CH.Preview>
+
+---
+
+<FiltersButton />
+
+{/* prettier-ignore */}
+```html hello.html mark=2[15:18],5[27:31],8[15:26],11[15:23],14[50:55]
+<div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-8">
+  <div class="blur">
+    <img src="/mountains-1.jpg" alt="" loading="lazy">
+  </div>
+  <div class="col-start-3 sepia">
+    <img src="/mountains-2.jpg" alt="" loading="lazy">
+  </div>
+  <div class="saturate-200">
+    <img src="/mountains-3.jpg" alt="" loading="lazy">
+  </div>
+  <div class="grayscale">
+    <img src="/mountains-4.jpg" alt="" loading="lazy">
+  </div>
+  <div class="row-start-1 col-start-2 col-span-2 invert">
+    <img src="/mountains-5.jpg" alt="" loading="lazy">
+  </div>
+</div>
+```
+
+<CH.Preview frameless>
+  <Demo step={2} />
+</CH.Preview>
+
+</CH.Spotlight>
