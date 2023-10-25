@@ -109,16 +109,13 @@ function Title() {
   return (
     <div className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32">
       <h1 className="font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center text-white">
-        Rapidly build a clone of Tailwind's landing page with Code Hike.
+        Venture-Centric Sales Innovation: We Invest in Your Business Growth
       </h1>
       <p className="mt-6 text-lg  text-center max-w-3xl mx-auto text-slate-400">
-        A utility-first CSS framework packed with classes like{/* */}{" "}
-        <code className="font-mono font-medium text-sky-400">flex</code>,{" "}
-        <code className="font-mono font-medium text-sky-400">pt-4</code>,{" "}
-        <code className="font-mono font-medium text-sky-400">text-center</code>{" "}
+       Elevating businesses by deploying advanced sales systems{/* */}{" "}
+        <code className="font-mono font-medium text-sky-400">businesses</code>,{" "}
         and{" "}
-        <code className="font-mono font-medium text-sky-400">rotate-90</code>{" "}
-        that can be composed to build any design, directly in your markup.
+        by deploying advanced sales systems.
       </p>
     </div>
   )
