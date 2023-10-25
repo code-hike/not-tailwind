@@ -7,7 +7,6 @@ export function Header() {
         <Background />
         <Nav />
         <Title />
-        <Content />
       </div>
     </header>
   )
