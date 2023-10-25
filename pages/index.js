@@ -8,13 +8,10 @@ export default function Home() {
   return (
     <main className="antialiased text-slate-400 bg-slate-900">
       <Head>
-        <title>Not Tailwind CSS | Code Hike Demo</title>
+        <title>Cabyz LLC</title>
       </Head>
 
       <Header />
-      <ModernFeatures />
-      <StateVariants />
-      <NotComponents />
     </main>
   );
 }
